@@ -1,0 +1,32 @@
+{
+  "name": "ffmpeg-inject",
+  "version": "1.0.0",
+  "description": "Injects the ffmpeg-static binarys into the path variable of the current node process.",
+  "main": "modules/main.js",
+  "scripts": {
+    "test": "node ./scripts/test.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/malte-linke/ffmpeg-inject.git"
+  },
+  "keywords": [
+    "ffmpeg",
+    "ffmpeg-static",
+    "enviroment",
+    "path"
+  ],
+  "author": {
+    "name": "Malte Linke",
+    "email": "malte.linke.ml@gmail.com",
+    "url": "https://malte-linke.com"
+  },
+  "license": "GPL-3.0-or-later",
+  "bugs": {
+    "url": "https://github.com/malte-linke/ffmpeg-inject/issues"
+  },
+  "homepage": "https://github.com/malte-linke/ffmpeg-inject#readme",
+  "dependencies": {
+    "ffmpeg-static": "^4.4.0"
+  }
+}
